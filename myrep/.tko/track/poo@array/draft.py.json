@@ -2,8 +2,33 @@
     "patches": [
         {
             "label": "2025-10-30_12-19-37",
-            "content": "",
+            "content": "@@ -1,271 +0,0 @@\n-lista = %5B%5D # lista vazia%0Acompras = %5B%22carne%22, %22patinho%22, %22p%C3%A3o%22%5D #lista prenchida%0Aprint(compras)%0A# obiter o tamanho de uma lista%0A%0Acompras.append(%22frango%22) # adicionando elemetos no final%0A%0Acompras.insert(0, %22farinha%22) # adiciona um elemento no inicio da lista%0Aprint(compras)\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-30_10-51-34",
+            "content": "@@ -248,25 +248,24 @@\n  da lista%0Aprint(compras)\n-%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-10-30_11-07-10",
+            "content": "@@ -269,34 +269,4 @@\n as)%0A\n-compras.pop(0)%0Aprint(compras)%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-10-30_11-13-48",
+            "content": "@@ -254,61 +254,37 @@\n sta%0A\n-compras.pop(0) # removido elemento no incio da lista \n+print(compras)%0Acompras.pop(0)\n %0Apri\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-10-31_08-35-41",
+            "content": "@@ -124,26 +124,8 @@\n sta%0A\n-li = %5B9%5D%0Aprint(li)\n %0Acom\n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-10-31_19-26-35",
+            "content": "lista = [] # lista vazia\ncompras = [\"carne\", \"patinho\", \"p\u00e3o\"] #lista prenchida\nprint(compras)\n# obiter o tamanho de uma lista\nli = [9]\nprint(li)\ncompras.append(\"frango\") # adicionando elemetos no final\n\ncompras.insert(0, \"farinha\") # adiciona um elemento no inicio da lista\ncompras.pop(0) # removido elemento no incio da lista \nprint(compras)\n",
+            "lines": "11"
         }
     ]
 }

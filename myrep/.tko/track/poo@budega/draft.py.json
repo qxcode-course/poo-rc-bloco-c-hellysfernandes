@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-06_09-54-25",
+            "content": "@@ -1,261 +0,0 @@\n-class Cliente:%0A    def __init__(self):%0A        self.__name: str = %22%22%0A    %0A    def getName(self) -%3E str:%0A        return self.__name%0A    %0A    def __str__(self) -%3E str:%0A        return f%22nome: %7Bself.__name()%7D%22%0A    %0Aclass Market:%0A    def __init__(self):%0A            \n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-11-06_10-15-19",
+            "content": "@@ -258,59 +258,4 @@\n     \n-self.__counters: list%5BCliente %7C None%5D = %5B%5D%0A            \n",
+            "lines": "13"
+        },
+        {
+            "label": "2025-11-06_10-20-01",
+            "content": "class Cliente:\n    def __init__(self):\n        self.__name: str = \"\"\n    \n    def getName(self) -> str:\n        return self.__name\n    \n    def __str__(self) -> str:\n        return f\"nome: {self.__name()}\"\n    \nclass Market:\n    def __init__(self):\n            self.__counters: list[Cliente | None] = []\n            ",
+            "lines": "14"
+        }
+    ]
+}
